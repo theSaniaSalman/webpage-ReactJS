@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner-div{
+  background-image: url('../public/assets/ensurebanner.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  background-color:rgb(108, 191, 224);
+  height:75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.banner-child{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+
+  text-align: left;
+}
+.banner-child h2{
+  font-weight: 700;
+  color:#fff;
+  text-transform: uppercase;
+  font-size:2.5em;
+}
+.banner-child p{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.home-buttons{
+  border-radius: 50px !important;
+}
+.order-button{
+  border:2px solid #fff !important;
+  border-radius: 50px !important;
+  width:15%;
+  font-weight: 700 !important;
+  color: #434344 !important;
+  font-size:14px !important;
+  border:2px solid #434344 !important;
+}
+.order-button:hover{
+  background-color: rgb(24, 144, 192) !important;
+  color:#fff !important;
+  border:2px solid #fff !important;
+ 
+}
+.promos-div{
+  background-color: rgb(188, 226, 231);
+}
+.product-card{
+  background-color:#fff;
+}
+.myNav {
+  display: flex;
+  justify-content: center !important;
+}
+.nav-color{
+  background-color:  rgb(108, 191, 224);
+  display: flex;
+  justify-content: center !important;
+  box-shadow: none !important;
+}
+/* .navbar-box{
+  background-color: grey;;
+} */
+.navbar-toggler{
+  border:1px solid #fff !important;
+}
+/* .navbar-toggler-icon{
+  background-color:#fff !important;
+} */
+.call-num{
+  background-color: orange;
+  color:#fff !important;
+  font-size:16px;
+}
+.nav-link{
+  color:#000 !important;
+  font-weight:500;
+  font-size: 14px;
+}
+.cart-box{
+  border-right:1px solid #7c7c7c;
+  display: inline-block;
+  padding:10px;
+ text-align: center;
+}
+.cart-btn{
+  border:1px solid #434344 !important;
+}
+.categories-div{
+  background-color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+} 
+.promo-cardbox{
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.promocard-title{
+  font-size:24px;
+  width:80%;
+  color:rgb(63, 63, 63);
+  text-shadow:0px 0px 1px #7a7a7a;
+}
+.cat-title{
+  font-size: 15px;
+  width:100%;
+  font-weight: bold !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .order-button{
+    border:2px solid #fff !important;
+    border-radius: 50px !important;
+    width:50%;
+    font-weight: 700 !important;
+    color: #434344 !important;
+    font-size:14px !important;
+    border:2px solid #434344 !important;
+  }
+}
